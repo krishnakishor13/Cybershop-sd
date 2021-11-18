@@ -3,7 +3,7 @@ body {
 	margin: 0;
 	padding: 0;
 }
-.title {
+.titel {
 	color: #a4c703;
 }
 .main-visual img {
@@ -16,7 +16,6 @@ body {
 	background-color: #c2e8c230;
 	display: flex;
 	justify-content: space-between;
-
 }
 
 .lemon {
@@ -99,6 +98,85 @@ header .header-links .img img {
 
 
 
+/* .main{
+  background-color:white;
+  font-family: Roboto;
+  margin-top: 0;
+  width: 100%;  
+}
+
+.content {
+  background-color:white;
+  font-family: Roboto;
+  margin-top: 0;
+  width: 100%;
+}
+
+ul.items {
+  padding: 20px 0;
+}
+
+ul.items li {
+  list-style: none;
+  display: flex;
+}
+
+ul.items li img.item-image {
+
+  height: fit-content;
+}
+
+ul.items li .info {
+  width: 100%;
+  position: relative;
+  padding: 5px 15px;
+}
+
+ul.items li .info .name {
+  font-weight: bold;
+  font-size: 35px;
+  color: black;
+  position: relative;
+  left: 15%;
+}
+
+ul.items li .info .name-bottom {
+  padding: 10px 0;
+  display: flex;
+}
+
+ul.items li .info .name-bottom .count {
+  padding: 3px 15px 0 10px;
+}
+
+ul.items li .info .info-bottom {
+  position: absolute;
+  left: 18%;
+  bottom: 5%;
+  display: flex;
+  flex-flow: column;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+ul.items li .info .info-bottom .price {
+  padding-top: 5px;
+  font-size: 30px;
+  color: black;
+  font-weight: lighter;
+  position: relative;
+  
+}
+
+ul.items li .info .info-bottom .add {
+  border: 1px solid #a4c703;
+  font-size: 20px;
+  padding: 5px 25px;
+  cursor: pointer;
+  background-color: #a4c703;
+  color: white;
+  position: relative;
+} */
 
 .content {
 	font-family: Roboto;
@@ -124,7 +202,7 @@ width: 70%;
 ul.items li .info .name {
 	font-weight: 700;
 	font-size: 20px;
-	color: #4A4A4A;
+	color: #0a0202;
   margin: -5% 0% 26% 5%;
 }
 @media screen and (max-width: 900px) {
@@ -464,7 +542,13 @@ footer button {
 	border-top: 1px solid #a4c703;
 }
 
-
+/* .details .box2 tr,
+td {
+  padding-right: 78px;
+  padding-left: 1px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+} */
 
 .details h3 {
 	font-family: Roboto;
@@ -516,7 +600,22 @@ footer button {
 	font-weight: bold;
 }
 
+/* .details .box2 .selected1 {
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-end;
+  margin-left: 65%;
+}
 
+.details .box2 .selected2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.details .box2 .total {
+  display: flex;
+  justify-content: space-between;
+} */
 .details .dispatch {
 	width: 55%;
 	margin: 0 15%;
