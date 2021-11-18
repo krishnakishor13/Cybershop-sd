@@ -16,11 +16,11 @@ const OrderConfirmation = () => {
 
       <div class="message">
         <p>
-          Thank you for your ordering{" "}
+          Thank you for your order{" "}
           <span class="color">{user.user_name}</span>. We received your request.{" "}
           <br />
           <br />
-          Our staff will be contacting with you to tell next steps.
+          Our staff will contact with you to tell next steps.
         </p>
       </div>
 
