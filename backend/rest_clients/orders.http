@@ -1,0 +1,15 @@
+POST http://127.0.0.1:8000/orders/add/ HTTP/1.1
+content-type: application/json
+Authorization: a2899d8ca64dc331bcd0d27352c2702145d5d5666e8fccfe3ce3516fedaf
+
+{
+    "total_price": 99.90,
+    "full_name": "test100011",
+    "address_line1": "teat address",
+    "address_line2": "test address2",
+    "city": "test city",
+    "state": "test state",
+    "postal_code": "560008",
+    "country": "India",
+    "telephone": "67555678"
+}
