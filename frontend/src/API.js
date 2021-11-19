@@ -8,8 +8,9 @@ var baseURL;
 // ) {
 //   baseURL = process.env.REACT_APP_API_BASE_URL;
 // } else {
-baseURL = "http://127.0.0.1:8000";
+// baseURL = "http://127.0.0.1:8000";
 // }
+baseURL = "https://backend-lemonade.herokuapp.com/s";
 
 
 const api = axios.create({
