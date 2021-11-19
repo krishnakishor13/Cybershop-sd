@@ -149,6 +149,14 @@ ul.items li .info .info-bottom {
   ul.items li .info .info-bottom {
     left: 13%;
   }
+  ul.items li .info .info-bottom .add{
+	  position: relative;
+	  left: -9%;
+  }
+  ul.items li .info .info-bottom .number{
+	position: relative;
+	left: -9%;
+  }
 }
 ul.items li .info .info-bottom .price {
 	padding-top: 5px;
