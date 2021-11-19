@@ -3,7 +3,7 @@ import { useDispatch } from "react-redux";
 import { signIn } from "../reducks/users/operations";
 import Home from "../containers/Home";
 import CrossX from "../assets/img/cross.png";
-import Melodium from "../assets/img/Melodium.svg";
+
 import { push } from "connected-react-router";
 
 const Signin = () => {
