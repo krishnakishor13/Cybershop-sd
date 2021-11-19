@@ -6,7 +6,7 @@ const MainImage = () => {
   const [checkUser, setCheckUser] = useState(false);
   return (
     <>
-      <section class="main-visual">
+      <section class="background">
         <div class="main-catch">
         </div>
         <img src={ImgCover} alt="" />
