@@ -4,7 +4,7 @@ import { signUp } from "../reducks/users/operations";
 import CrossX from "../assets/img/cross.png";
 import Home from "../containers/Home";
 import { push } from "connected-react-router";
-import Melodium from "../assets/img/Melodium.svg";
+
 
 const SignUp = () => {
   const dispatch = useDispatch();
