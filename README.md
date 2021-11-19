@@ -22,7 +22,7 @@ Check out [API LIVE DEMO](https://backend-lemonade.herokuapp.com/) here!!
 
 ## How to Install
 
-1. Git Clone 
+1. Git Clone https://github.com/Shivangitechis/Lemonade.git
 
 ```
 ```
