@@ -23,6 +23,7 @@ const Cart = () => {
 	return (
 		<>
 			<MainImage />
+			
 			<section class="content">
 				<ul class="items">
 					{
