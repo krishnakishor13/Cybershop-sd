@@ -16,16 +16,22 @@ body {
 /* Header  */
 .header-head {
 	width: 100%;
-	height: 50px;
 	background-color: #c2e8c230;
 	display: flex;
 	justify-content: space-between;
+}
+
+
+.header-head .home-link {
+	width: 50%;
+
 }
 
 .lemon {
 	font-family: Mentalist;
 	color: #a4c703;
 	font-size: 25px;
+	flex-basis: 50%;
 }
 
 .header {
@@ -38,9 +44,10 @@ body {
 }
 header .header-links {
 	display: flex;
-	width: 15%;
+	width: 50%;
 	font-size: 1.2em;
 	padding: 15px;
+	justify-content: end;
 }
 
 header .header-links p {
@@ -65,25 +72,48 @@ header .header-links .sign-in-link .logout {
 
 header .header-links .img img {
 	width: 30px;
-	margin-left: 100%;
+	margin-right: 0;
 	padding: 0;
 }
 
 /* For responsiveness */
 
+
+
 @media screen and (max-width: 900px) {
-	header .header-links {
-		width: 35%;
-	}
 	header .header-links .sign-in-link {
 		padding: 5px 15px;
+		left: 39%;
+		margin-left: 52%;
 	}
-  ul.items li .info .name{
-    margin: -5% 0% 26% 10%;
-  }
-
-
 }
+
+
+@media screen and (max-width:450px) {
+	.header-head,header .header-links{
+		width: 100%;
+	}
+}
+
+
+@media screen and (max-width:450px) {
+	footer {
+		position:unset;
+	}
+}
+
+@media screen and (max-width:850) and (min-width:450px) {
+	ul.items li .info .info-bottom {
+		top: 0;
+	}	
+}
+
+/* @media screen and (max-width:450px) {
+	header .header-links .img img {
+      
+	}
+} */
+
 .sign-in {
 	font-family: Roboto;
 	color: black;
@@ -132,23 +162,80 @@ ul.items li .info .name {
 	color: #4A4A4A;
   margin: -5% 0% 26% 5%;
 }
-@media screen and (max-width: 900px) {
-  ul.items li .info .name{
-    margin: -5% 0% 26% 10%;
-  }
+@media screen and (max-width:1200px){
+ul.items li .info .info-bottom {
+    position: absolute;
+    left: 7%;
+    top: 144px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}}
+
+
+@media screen and (max-width:900px) {
+	ul.items li .info .info-bottom .price {
+		margin: 0% 20%;
+	}
 }
 ul.items li .info .info-bottom {
 	  position: absolute;
     left: 7%;
-    bottom: 10px;
+	top: 141px;
     width: 90%;
     display: flex;
     justify-content: space-between;
 }
-@media screen and (max-width: 900px){
-  ul.items li .info .info-bottom {
-    left: 13%;
-  }
+
+@media screen and (max-width: 1200px){
+	
+}
+
+
+@media screen and (max-width: 768px) {
+	ul.items li .info .info-bottom {
+		display: flex;
+		justify-content: space-between;
+		left: -10%;
+		top: 61%;
+		padding-left: 0%;
+	}
+	
+}
+
+@media screen and (max-width:900px) {
+	ul.items li .info .info-bottom .price {
+		margin: 0% 20%;
+	}
+}
+
+@media screen and (max-width:450px) {
+	ul.items li .info .info-bottom {
+	position: absolute;
+    left: 7%;
+    top: 26px;
+   
+    display: flex;
+    justify-content: space-between
+	}
+	
+	
+	
+}
+
+
+@media screen and (max-width:450px) {
+	ul.items li .info .info-bottom {
+		top: 26px;
+		left: 3px;
+	}
+}
+
+
+
+ 
+@media screen and (max-width: 450px){
+  
   ul.items li .info .info-bottom .add{
 	  position: relative;
 	  left: -9%;
@@ -157,6 +244,12 @@ ul.items li .info .info-bottom {
 	position: relative;
 	left: -9%;
   }
+
+.popup .popup-inner .popup-preview .input .Melodum .bold {
+    font-weight: bold;
+    font-size: 23px;
+    color: #a4c703;
+}
 }
 ul.items li .info .info-bottom .price {
 	padding-top: 5px;
@@ -195,7 +288,7 @@ ul.items li .info .info-bottom .number .minus {
 	cursor: pointer;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 450px) {
 	.content {
 		padding: 0px 0px 0px 0px;
 	}
@@ -217,6 +310,9 @@ ul.items li .info .info-bottom .number .minus {
 	ul.items li .info .name {
 		font-weight: bold;
 		font-size: 14px;
+		position: absolute;
+		left: 25px;
+		top: 0px;
 	}
 	.content .item-image {
 		width: 60%;
@@ -227,20 +323,17 @@ ul.items li .info .info-bottom .number .minus {
 		font-size: 13px;
 	}
 
-	ul.items li .info .info-bottom {
-		position: relative;
-    left: 17%;
-    justify-content: space-around;
-	}
+	
 
-	ul.items li .info .info-bottom .price {
-		padding-top: 5px;
-		font-size: 15px;
-	}
+	@media screen and (max-width: 500px){
+     ul.items li .info .info-bottom .price {
+    padding-top: 3px;
+    font-size: 15px;
+     }}
 
 	ul.items li .info .info-bottom .add {
 		font-size: 14px;
-		padding: 0px 15px;
+		padding: 0px 5px;
 		line-height: 24px;
 		background-color: #a4c703;
 	}
@@ -255,7 +348,7 @@ ul.items li .info .info-bottom .number .minus {
 }
 
 footer {
-	position: fixed;
+	position: sticky;
 	bottom: 0;
 	left: 0%;
 	display: flex;
@@ -265,21 +358,10 @@ footer {
 	z-index: 2;
 	border: 1px solid rgba(194,232,194,.18823529411764706);
 	width: 100%;
-}
-@media screen and (max-width: 280px) {
-  footer {
-    position: relative;
-  }
-  
-}
-
-footer .subtotal {
-	font-family: Roboto;
-	color: black;
-	font-size: 20px;
-	line-height: 50px;
 	font-weight: bold;
 }
+
+
 
 footer button {
 	margin-right: 20px;
@@ -292,11 +374,7 @@ footer button {
 	font-family: Roboto;
 	cursor: pointer;
 }
-@media screen and (max-width: 280px) {
-    footer button {
-      padding: 0;
-    }
-}
+
 
 .popup {
 	position: fixed;
@@ -333,11 +411,12 @@ footer button {
 	width: 25%;
 	margin-right: 10%;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 540px) {
 	.popup .popup-inner .popup-preview {
 		position: absolute;
-		left: 5%;
-		width: 90%;
+		left: 16%;
+		top: 69px;
+		width: 63%;
 		background-color: #ffffff;
 		border: 2px solid #707070;
 	}
@@ -382,16 +461,9 @@ footer button {
 		width: 76%;
 		padding: 0 4%;
 	}
-  ul.items li .info .name{
-    margin: -5% 0% 26% 27%;
-  }
   
 }
-@media screen and (max-width:280px) {
-  ul.items li .info .name {
-    margin: -7% 0% 26% 27%;
-  }
-}
+
 
 .popup input {
 	background-color: #c2e8c230;
@@ -563,27 +635,7 @@ footer button {
 	
 }
 
-@media screen and (max-width: 600px) {
-	.details {
-		width: 80%;
-	}
-  ul.items li img {
-    width: 40%;
-  }
-  ul.items li .info{
-    margin-top: -29%;
-  }
-  ul.items li .name{
-    margin: -5% 0% 26% 27%;
-  }
-}
-.message p {
-	font-family: Roboto;
-	color: #000000;
-	width: 100%;
-	font-size: 35px;
-  text-align: center;
-}
+
 @media screen and (max-width: 400px) {
 	.message p {
 		font-family: Roboto;
@@ -602,22 +654,13 @@ footer button {
 	cursor: pointer;
 	margin: 0 0 0 40%;
 }
-@media screen and (max-width: 600px) {
-  .backhome button {
-      margin: 0 0 0 30%;
-  }
-  
-}
+
 @media screen and (max-width: 400px) {
 	.backhome button {
 		margin: 0 0 0 25%;
 	}
 }
-@media screen and (max-width: 350px){
-  .backhome button {
-    margin: 0 0 0 25%;
-  }
-}
+
 .content li {
 	list-style: none;
 }

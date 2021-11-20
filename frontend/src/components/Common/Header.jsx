@@ -24,11 +24,13 @@ export default function Header() {
   return (
     <header>
       <section class="header-head">
+        <div className="home-link">
         <a href="/">
           <div class="header">
             <span class="lemon">Lemonade</span>
           </div>
         </a>
+        </div>
         <div class="header-links">
           <p class="sign-in-link">
             {checkUser ? (
