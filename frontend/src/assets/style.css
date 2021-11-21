@@ -633,6 +633,7 @@ footer button {
   font-family: Roboto;
   cursor: pointer;
   margin: 0 0 0 40%;
+  margin-left: 44%;
 }
 
 @media screen and (max-width: 400px) {
