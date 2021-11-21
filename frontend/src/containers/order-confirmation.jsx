@@ -23,7 +23,6 @@ const OrderConfirmation = () => {
           Our staff will contact with you to tell next steps.
         </p>
       </div>
-
       <div class="backhome">
         <a href="/">
           <button>Back to Home</button>
