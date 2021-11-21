@@ -102,16 +102,16 @@ DATABASES = {
 
 
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'dfs111h41od3lg',
-        'USER': 'pvbxxfdpapdnoo',
-        'PORT': 5432,
-        'HOST': 'ec2-34-199-224-49.compute-1.amazonaws.com',
-        'PASSWORD': 'f42ae0f0e37092b568f0c987848fa9bd03a505cf9b563cc2ed6a8510875fc1ac',
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'dfs111h41od3lg',
+#         'USER': 'pvbxxfdpapdnoo',
+#         'PORT': 5432,
+#         'HOST': 'ec2-34-199-224-49.compute-1.amazonaws.com',
+#         'PASSWORD': 'f42ae0f0e37092b568f0c987848fa9bd03a505cf9b563cc2ed6a8510875fc1ac',
+#     }
+# }
 
 
 # Heroku PostgreSQL Database
@@ -163,10 +163,10 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 cloudinary.config(
-    cloud_name="www-techis-io",
-    api_key="891747999686865",
-    api_secret="seWq_dLQRcb7O5eMY-XdAuznU_w",
-
+    cloud_name = "techisio" ,
+    api_key = "824343795361486" ,
+    api_secret = "4iouUyJUNyruEf9tFfjyJ7friaw",
+    secure = True,
 )
 
 REST_FRAMEWORK = {

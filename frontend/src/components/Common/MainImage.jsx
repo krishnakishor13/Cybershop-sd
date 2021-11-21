@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ImgCover from "../../assets/img/back.png";
+import ImgCover from "../../assets/img/background-top.png";
 import ImageCartLogo from "../../assets/img/Dribbble-Light-Preview.png";
 
 const MainImage = () => {

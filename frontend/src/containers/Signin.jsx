@@ -41,7 +41,7 @@ const Signin = () => {
               </span>
               <div class="input">
                 <div class="Melodum">
-                  <p class="bold">Lemonade</p>
+                  <p class="bold">Cyber Shop</p>
                 </div>
                 <p class="bold2">SIGN IN</p>
                 <input

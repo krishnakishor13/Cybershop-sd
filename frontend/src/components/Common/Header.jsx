@@ -27,7 +27,7 @@ export default function Header() {
         <div className="home-link">
         <a href="/">
           <div class="header">
-            <span class="lemon">Lemonade</span>
+            <span class="lemon">Cyber Shop</span>
           </div>
         </a>
         </div>
