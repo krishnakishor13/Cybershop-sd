@@ -102,16 +102,16 @@ DATABASES = {
 
 
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'dfs111h41od3lg',
-#         'USER': 'pvbxxfdpapdnoo',
-#         'PORT': 5432,
-#         'HOST': 'ec2-34-199-224-49.compute-1.amazonaws.com',
-#         'PASSWORD': 'f42ae0f0e37092b568f0c987848fa9bd03a505cf9b563cc2ed6a8510875fc1ac',
-#     }
-# }
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'ddhgfge8cc6jk1',
+        'USER': 'xpqvbvoepumgjs',
+        'PORT': 5432,
+        'HOST': 'ec2-34-232-252-124.compute-1.amazonaws.com',
+        'PASSWORD': '222acccb455dd8a2e5d6ca0b0660a2a5cfdcf1f6635ea5c4a9039282f8f69e8a',
+    }
+}
 
 
 # Heroku PostgreSQL Database
