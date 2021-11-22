@@ -502,7 +502,7 @@ footer button {
   margin: 0 35%;
   position: absolute;
   top: 35px;
-  left: 100px;
+  left: 35px;
 }
 
 @media screen and (max-width: 400px) {
