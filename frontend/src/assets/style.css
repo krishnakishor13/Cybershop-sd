@@ -22,10 +22,17 @@ body {
   width: 50%;
 }
 
-.lemon {
+.cyber {
   font-family: Mentalist;
   color: #03c72d;
   font-size: 25px;
+  flex-basis: 50%;
+}
+
+.shop {
+  font-family: Mentalist;
+  color: whitesmoke;
+  font-size: 18px;
   flex-basis: 50%;
 }
 
@@ -223,6 +230,7 @@ ul.items li .info .info-bottom {
     color: green;
   }
 }
+
 ul.items li .info .info-bottom .price {
   padding-top: 5px;
   font-size: 20px;
